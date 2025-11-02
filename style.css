@@ -1,0 +1,350 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/imagem_principal.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    transform: scale(1.05);
+    z-index: -1;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1.2rem;
+    cursor: pointer;
+}
+
+.agendar {
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.agendar:hover {
+    background-color: rgba(255, 166, 0, 0.74);
+}
+
+.agendar:active {
+    background-color: rgba(255, 166, 0, 0.37);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+main h1 {
+    font-size: 4rem;
+}
+
+main p {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+main button {
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+main button:hover {
+    background-color: rgba(29, 29, 29, 0.918);
+}
+
+main button:active {
+    background-color: rgb(63, 63, 63);
+}
+
+.caixa_servicos {
+    padding-top: 120px;
+    background-color: black;
+    color: white;
+    height: 70vh;
+}
+
+.titulo_servicos {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 6rem;
+}
+
+.servicos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+    width: 100%;
+    margin: 32px auto;
+}
+
+.cards_servicos {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 22px;
+}
+
+.cards_servicos img {
+    width: 90px;
+    height: 90px;
+}
+
+.cards_servicos p {
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+
+.cards_servicos button {
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.cards_servicos button:hover {
+    background-color: rgba(255, 166, 0, 0.74);
+}
+
+
+.caixa_servicos button:active {
+    background-color: rgba(255, 166, 0, 0.37);
+}
+
+.cards_servicos:hover{
+    margin-top: 10px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.galeria {
+    background-color: black;
+
+}
+
+.galeria_caixa {
+    padding: 150px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+
+
+}
+
+
+.galeria_caixa img {
+    padding: 10px;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.galeria_caixa img:hover {
+    cursor: pointer;
+}
+
+
+.caixa_contato {
+    margin: 150px 0;
+}
+
+
+.titulo_contato {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.contato_agenda h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contato_agenda button {
+    color: white;
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.contato_agenda button:hover {
+    background-color: rgba(255, 166, 0, 0.74);
+}
+
+.contato_agenda button:active {
+    background-color: rgba(255, 166, 0, 0.37);
+
+}
+
+
+.contato_localizacao h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contato_localizacao iframe {
+    width: 500px;
+    height: 400px;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px
+}
+
+@media  screen and (max-width: 860px) {
+    main {
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        padding: 60px 60px  ;
+    }
+
+
+    .servicos {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 60px;
+        justify-items: center;
+        width: 80%;
+        margin: 32px auto;
+    }
+
+    .caixa_servicos {
+        height: 120vh;
+    }
+
+
+    .contato_localizacao iframe {
+    width: 300px;
+    height: 200px;
+
+    }
+}
+
+@media  screen and (max-width: 575px) {
+    main {
+        width: 100%;
+    }
+
+    main h1 {
+        font-size: 3rem;
+    }
+
+    main p {
+        font-size: 1.5rem;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contato_localizacao {
+        margin-top: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 570px) {
+    .servicos {
+        display: grid;
+        width: 90%;
+        margin: 32px auto;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .caixa_servicos {
+        height: 150vh;
+    }
+    
+    .servicos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .cards_servicos {
+        width: 200px;
+    }
+
+    .galeria_caixa {
+        grid-template-columns: 1fr;
+    }
+}
