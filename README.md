@@ -7,7 +7,7 @@ O objetivo deste projeto foi praticar HTML e CSS criando um site visualmente atr
 
 ## 🚀 Demonstração
 
-🔗 [Acesse o site aqui](https://seuusuario.github.io/barbearia/](https://guilhermebrandaoo.github.io/Site-Barbearia/))  
+🔗 [Acesse o site aqui](https://seuusuario.github.io/barbearia/](https://guilhermebrandaoo.github.io/Site-Barbearia/)  
 
 
 
