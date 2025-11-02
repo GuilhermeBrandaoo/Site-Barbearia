@@ -76,6 +76,7 @@ Durante o desenvolvimento, pratiquei:
 
 Desenvolvido por **Guilherme Brandão** 👋  
 🔗 [LinkedIn](https://www.linkedin.com/in/guilherme-brandao-da-silva/)
+
 💻 [GitHub](https://github.com/GuilhermeBrandaoo)
 
 ---
