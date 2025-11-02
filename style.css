@@ -214,6 +214,12 @@ main button:active {
     margin: 150px 0;
 }
 
+.caixa_contato p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 600px;
+    margin: 1rem auto;
+}
 
 .titulo_contato {
     text-align: center;
@@ -225,6 +231,11 @@ main button:active {
     justify-content: space-around;
     margin-top: 100px;
     align-items: center;
+}
+
+.contato_agenda i {
+    font-size: 1.5em;
+    width: 40px;
 }
 
 .contato_agenda h3 {
@@ -259,6 +270,10 @@ main button:active {
     text-align: center;
 }
 
+.contato_localizacao P {
+    width: 100%;
+}
+
 .contato_localizacao iframe {
     width: 500px;
     height: 400px;
@@ -270,6 +285,33 @@ footer {
     color: white;
     padding: 10px
 }
+
+@media screen and (max-width: 1100px) {
+    .contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .contato_agenda {
+        text-align: center;
+        margin-bottom: 6rem;
+        width: 100%;
+    }
+
+    .contato_agenda p {
+        width: 100%;
+    }
+
+
+    .contato_localizacao iframe {
+    width: 300px;
+    height: 200px;
+
+    }
+}
+
 
 @media  screen and (max-width: 860px) {
     main {
@@ -293,6 +335,23 @@ footer {
         height: 120vh;
     }
 
+    .contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .titulo_contato p {
+        padding: 20px;
+        width: 400px;
+    }
+
+    .contato_agenda {
+        text-align: center;
+        margin-bottom: 6rem;
+    }
+
 
     .contato_localizacao iframe {
     width: 300px;
@@ -300,6 +359,8 @@ footer {
 
     }
 }
+
+
 
 @media  screen and (max-width: 575px) {
     main {
@@ -319,6 +380,11 @@ footer {
         flex-direction: column;
         justify-content: center;
         text-align: center;
+    }
+
+    .titulo_contato p {
+        width: 350px;
+        font-size: 0.9rem
     }
 
     .contato_localizacao {
