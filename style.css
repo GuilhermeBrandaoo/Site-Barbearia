@@ -55,6 +55,11 @@ nav ul li {
     cursor: pointer;
 }
 
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
 .agendar {
     background-color: orange;
     padding: 10px 20px;
