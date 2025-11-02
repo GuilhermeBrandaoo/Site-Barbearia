@@ -11,7 +11,9 @@ O objetivo deste projeto foi praticar HTML e CSS criando um site visualmente atr
 
 
 
-![layout responsivo](https://github.com/user-attachments/assets/781f4347-b47e-414d-ab3f-0366f9fc4103)
+![video site completo](https://github.com/user-attachments/assets/9046502d-9f93-48c2-809c-d5b71711ab39)
+
+
 
 
 
