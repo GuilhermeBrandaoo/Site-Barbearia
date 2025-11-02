@@ -75,9 +75,8 @@ Durante o desenvolvimento, pratiquei:
 ## 🧑‍💻 Autor
 
 Desenvolvido por **Guilherme Brandão** 👋  
-📫 Contato: [seuemail@gmail.com]  
-🔗 [LinkedIn](https://linkedin.com/in/seulink)  
-💻 [GitHub](https://github.com/seuusuario)
+🔗 [LinkedIn](https://www.linkedin.com/in/guilherme-brandao-da-silva/)
+💻 [GitHub](https://github.com/GuilhermeBrandaoo)
 
 ---
 
